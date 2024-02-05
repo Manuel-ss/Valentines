@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300;1,400&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.x.x/dist/alpine.min.js"></script>
+    <title>i love you</title>
+    <style>
+       
+       body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .header1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(238, 66, 80);
+            text-shadow: black;
+            font-size: 50px;
+            position: absolute;
+            right: 170px;
+            top: 70px;
+        
+        }
+
+        .YES {
+            color: antiquewhite;
+            position: absolute;
+            right: 470px;
+            top: 350px;
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 200px;
+            height: 200px;
+            border-radius: 20px;
+            width: 200px;
+            background-color: rgb(89, 167, 11);
+            margin: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .YES:hover {
+            background-color: antiquewhite;
+            color: chartreuse;
+        }
+
+        .NO {
+            color: antiquewhite;
+            position: absolute;
+            right: 150px;
+            top: 370px;
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 200px;
+            border-radius: 20px;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+
+        .NO:hover {
+            background-color: antiquewhite;
+            color: red;
+        }
+
+        .dancing {
+            position: absolute;
+            top: 515px;
+            left: 280px;
+        }
+
+        .screen {
+            display: none;
+        }
+
+        .screen.active {
+            display: block;
+        }
+
+        
+        .hearts{
+            position: absolute;
+            height: 850px;
+            width: auto;
+
+        }
+        .Header2{
+            color: crimson;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            right: -15px;
+            top: 200px;
+
+        }
+    
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   </style>
+</head>
+<body>
+    <div class="screen screen1 active" id="Screen1">
+        
+        <header class="header1">HOLAAAA AMOR!!!
+            <br> WILL YOU BE MY ONE AND ONLY VALENTINES??????
+        </header>
+
+        <img class="absolute top-60 left-48"
+            src="https://valentinesdaygifimages.files.wordpress.com/2018/02/be-my-valentine-gif-images.gif?w=1100">
+
+        <img class="dancing"
+            src="https://i.pinimg.com/originals/0b/a8/e2/0ba8e2989811721a348c576a1d24ce77.gif">
+
+        <button id="YESSizeButton" class="YES">YES</button>
+        <button id="NOSizeButton" class="NO">NO</button>
+    
+    </div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <style>
+.poem1{
+    position: absolute;
+    right: 100px;
+    top: 320px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(246, 143, 198);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.poem1:hover{
+    background-color:crimson;
+    color: rgb(246, 143, 198);
+    border-color: rgb(246, 143, 198);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.poem2{
+    position: absolute;
+    right: 400px;
+    top: 320px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(246, 143, 198);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.poem2:hover{
+    background-color:crimson;
+    color: rgb(246, 143, 198);
+    border-color: rgb(246, 143, 198);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.poem3{
+    position: absolute;
+    right: 100px;
+    top: 520px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(246, 143, 198);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.poem3:hover{
+    background-color:crimson;
+    color: rgb(246, 143, 198);
+    border-color: rgb(246, 143, 198);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.poem4{
+    position: absolute;
+    right: 400px;
+    top: 520px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(246, 143, 198);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.poem4:hover{
+    background-color:crimson;
+    color: rgb(246, 143, 198);
+    border-color: rgb(246, 143, 198);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.poem5{
+    position: absolute;
+    right: 100px;
+    top: 720px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(246, 143, 198);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.poem5:hover{
+    background-color:crimson;
+    color: rgb(246, 143, 198);
+    border-color: rgb(246, 143, 198);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.poem6{
+    position: absolute;
+    right: 400px;
+    top: 720px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(246, 143, 198);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.poem6:hover{
+    background-color:crimson;
+    color: rgb(246, 143, 198);
+    border-color: rgb(246, 143, 198);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+
+.Return{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(246, 143, 198);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.Return:hover{
+    background-color:crimson;
+    color: rgb(246, 143, 198);
+    border-color: rgb(246, 143, 198);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+  .Time{
+    color: crimson;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            right:250px;
+            top: 450px;
+  }
+  .laugh{
+    color: crimson;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            right:250px;
+            top: 570px;
+  }
+  </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="screen screen2" id="Screen2">
+        
+        <header class="Header2"> u picked yess??? Thats crazy ngl but
+            <br>
+            heres more of some things i want you to know....
+        </header>
+        <h1 class="Time">you can read in </h1>
+        <h1 class="laugh">LOLLLL</h1>
+    <!--
+        <button id="return" class="Return">Return</button>
+        --->
+        <div id="countdown" style="font-size: 50px; color: red; position: absolute; top: 500px; right: 150px;"></div>
+   
+        <!--
+        <button id="button1" class="poem1">secret</button>
+        <button id="button2" class="poem2">secret</button>
+        <button id="button3" class="poem3">secret</button>
+        <button id="button4" class="poem4">secret</button>
+        <button id="button5" class="poem5">secret</button>
+        <button id="button6" class="poem6">secret</button>
+--->
+
+        <img class="hearts" src="https://i.pinimg.com/originals/92/dc/13/92dc13df1f31754c07becfe13714288c.gif">
+        
+
+    </div>
+
+    <div class="screen screen3" id="Screen3">
+        <p class="p1">I knew i liked you when you made me nervous<br> <br>and my heart would beat faster when i saw you,<br>
+            <br>
+            i knew i loved you when i felt calmer with you than without you</p>
+            <img class="cheeks"
+            src="https://i.pinimg.com/originals/b9/dc/56/b9dc56e50a0edffc8854c010b2b32d02.gif">
+           <img class="hearts2" src="https://www.icegif.com/wp-content/uploads/2023/10/icegif-498.gif">
+            <button class="back1" id="back3">Back</button>
+    </div>
+    
+    
+    
+    
+    <div class="screen screen4" id="Screen4">
+        <img class="poppin"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Right_leaning_heart_pop.gif/640px-Right_leaning_heart_pop.gif">
+        
+        <button class="back2" id="back4">Back</button>
+        <p class="p2">even though we've been through so much,<br>
+            you're the only person i'd want to through it all with.<br>
+            the difficult times will always be temporary,<br>
+            and we're strong enough to make it through it all. <br>
+            our love is a forever kinda love.
+    </p>
+    </div>
+    
+    
+    
+    
+    
+    <div class="screen screen5" id="Screen5">
+        <button class="back3" id="back5">Back</button>
+        <img class="hk" src="https://2.bp.blogspot.com/-pJ67HGjHpXg/VC78_DKzOQI/AAAAAAAD8zQ/SBfsIJ3Eqrw/s1600-rw/hello-kitty-pretty-clipart-010.png">
+        <img class="hk2" src="https://media1.giphy.com/media/kZqbBT64ECtjy/giphy.gif?cid=6c09b9528285kr6uvekjkxlnk4exbswhag4dy87ix06r74fc&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+<img class="seat" src="https://t3.ftcdn.net/jpg/01/85/45/62/360_F_185456201_zBHr1KgRbAWfaHxxDGH8AblXcZH5BcF1.jpg">
+        <p class="p3">in your eyes, <br>
+        i found the home i've<br>
+    been searching<br>
+for all my life<br>
+a life many would envy<br>
+and im glad it was me</p>
+    </div>
+    
+    
+    
+    
+    <div class="screen screen6" id="Screen6">
+        <button class="back4" id="back6">Back</button>
+        <img class="drP" src="DrP.jpg">
+        <p class="p4">as long as i'm alive, <br>
+        you'll always have <br> someone who is proud of you<br>
+        and someone who is there for you <br>
+        no matter what
+        </p>
+    
+    </div>
+    
+    
+    
+    
+    
+    <div class="screen screen7" id="Screen7">
+        <button class="back5" id="back7">Back</button>
+        <img class="spider" src="spider2.jpg.png">   
+        <p class="p5"><br> i am so in love with who you are, <br>
+        i olve the way you look me in the eyes and tell me you love me.<br>
+         i love you the way i feel happy with you, <br>
+         i love the way you bring my real smile out whenever i see you, <br>
+         i love the way you would never judge me or see my flaws about me.<br>
+          i just love you and you only. <br>
+          i am forver grateful you were brought into my life.
+        </p>
+    </div>
+    
+    
+    
+    
+    <div class="screen screen8" id="Screen8">
+        <button class="back6" id="back8">Back</button>
+        <p class="p6">i will always love you forever and ever,
+             for an eternity.<br> i will always appriciate you and the things you do for me, <br>
+             im sad that we have to be separated from each other and seeing you go food to a new school but i believe we will make it work and stay together.<br>
+              you are so gorgeous,<br>
+               the way i see you through my eyes is jus atonishing and stunning. <br>
+               your personally are one of a kind and like ive said before i am more than lucky to have someone like you and i really hope you liked this.<br>
+                i love you and WE BELONG TOGETHER IDC.</p>
+        <img class="otter" src="https://media.tenor.com/0lMxJdfRFScAAAAi/otter-animated-otter.gif">
+    </div>
+
+
+
+<style>
+
+.hearts2{
+    position: absolute;
+    top: 60px;
+    right: 340px;
+    width: 250px;
+    height: 250px;
+}
+
+.cheeks{
+position: absolute;
+top: 300px;
+right: 300px;
+height: 300px;
+width: 300px;
+}
+
+
+.Screen3{
+    background-color: rgb(233, 58, 93);
+}
+.p1{
+    margin-top: 50px;
+    height: 500px;
+    width: 490px;
+    position: absolute;
+    top: 150px;
+    right: 750px;
+    background-color: rgb(248, 160, 178);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    border-color:rgb(233, 58, 93);
+    border-width: 20px;
+}
+.p2{
+    margin-top: 50px;
+    height: 450px;
+    width: 590px;
+    position: absolute;
+    top: 150px;
+    right: 260px;
+    background-color: rgb(165, 234, 171);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    border-color:rgb(233, 58, 93) ;
+    border-width: 20px;
+}
+
+.p3{
+   color: rgb(255, 255, 255);
+    margin-top: 50px;
+    height: 450px;
+    width: 590px;
+    position: absolute;
+    top: 200px;
+    right: 330px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: solid;
+    text-align: center;
+    
+}
+.hk{
+    position: absolute;
+    right: 180px;
+    top:70px;
+    width: 800px;
+    height: 800px;
+}
+.hk2{
+    position: absolute;
+    left: 105px;
+    top: 15px;
+}
+.seat{
+    height: 600px;
+    width: 600px;
+}
+
+.p4{
+   color: rgb(255, 255, 255);
+    margin-top: 50px;
+    height: 450px;
+    width: 590px;
+    position: absolute;
+    top: 200px;
+    right: 490px;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: bold;
+    text-decoration: solid;
+    text-align: center;
+    
+}
+.drP{
+    position: absolute;
+    top: 0px;
+    right: 250px;
+}
+.p5{
+margin-top: 50px;
+    height: 550px;
+    width: 690px;
+    position: absolute;
+    top: 150px;
+    right: 700px;
+    background-color: rgb(201, 33, 33);
+    font-size: xx-large;
+    font-family:monospace;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 40px;
+    border-color:rgb(43, 72, 231) ;
+    border-width: 20px;
+    text-shadow: white;
+   
+}
+.spider{
+    position: absolute;
+    right: 0px;
+    top: 170px;
+    height: 700px;
+    width: 700px   
+    
+}
+.p6{
+margin-top: 50px;
+    height: 680px;
+    width: 690px;
+    position: absolute;
+    top: 60px;
+    right: 700px;
+    background-color:rgb(148, 103, 103);
+    font-size: xx-large;
+    font-family:monospace;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 40px;
+    border-color:rgb(43, 175, 231) ;
+    border-width: 20px;
+    text-shadow: white;
+   
+}
+.otter{
+    position: absolute;
+    right: 120px;
+    top: 200px;
+}
+
+.back1{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(246, 143, 198);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.back1:hover{
+    background-color:crimson;
+    color: rgb(246, 143, 198);
+    border-color: rgb(246, 143, 198);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.back2{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: crimson;
+font-size:x-large;
+background-color: rgb(164, 245, 180);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.back2:hover{
+    background-color:crimson;
+    color: rgb(164, 245, 180);
+    border-color: rgb(164, 245, 180);
+    font-size: xx-large;
+    transform: scale(1.1);
+}   
+.back3{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: rgb(250, 10, 238);
+font-size:x-large;
+background-color: rgb(253, 150, 205);
+border-radius: 500%;
+border-width: 20px; 
+border-color: rgb(227, 38, 170);
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.back3:hover{
+    background-color:rgb(227, 38, 170);
+    color:   rgb(253, 150, 205);
+    border-color: rgb(253, 150, 205);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.back4{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+font-size:x-large;
+background-color: crimson   ;
+border-radius: 500%;
+border-width: 20px;
+border-color: gray;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.back4:hover{
+    background-color:gray;
+    color: white;
+    border-color:crimson;
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.back5{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+font-size:x-large;
+background-color: rgb(78, 43, 234);
+border-radius: 500%;
+border-width: 20px;
+border-color: crimson;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.back5:hover{
+    background-color:crimson;
+    color: rgb(255, 255, 255);
+    border-color: rgb(112, 77, 251);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+.back6{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+font-size:x-large;
+background-color: rgb(148, 103, 103);
+border-radius: 500%;
+border-width: 20px;
+border-color:rgb(43, 175, 231) ;
+width: 150px;
+height: 150px;
+font-style: italic;
+transition: transform 0.3s ease;
+}
+.back6:hover{
+    background-color:rgb(43, 175, 231);
+    color: rgb(255, 255, 255);
+    border-color: rgb(148, 103, 103);
+    font-size: xx-large;
+    transform: scale(1.1);
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+        function setScreenById(screenId) {
+            document.querySelectorAll('.screen').forEach(screen => {
+                screen.classList.remove('active');
+            });
+
+            var selectedScreen = document.getElementById(screenId);
+            if (selectedScreen) {
+                selectedScreen.classList.add('active');
+            }
+        }
+
+        var buttonTexts = [
+            "Are You Sure???",
+            "UMMMMMMMM???",
+            "You cant say no wth",
+            "PLEASE WTH",
+            "F roblox den",
+            "but i love you",
+            "BE MY VALENTINES PLS",
+            ":(",
+            "ok wtv",
+            "last chance fr",
+            "i beg",
+            "porfavor",
+            "pls",
+            "who u think u r ",
+            "ima kms",
+            "jajajajaja",
+            "ima cry cus these are too many no's",
+            "f u 2",
+            "jk",
+            "i love you",
+            "SAY YES DAMN",
+            "im running out",
+            "u still saying no?",
+            "ok wtv like ion curr",
+            "ok i curr",
+            "say yes pls",
+            "salamat po",
+            "ummmm do it"
+        ];
+
+        var currentTextIndex = 0;
+
+function increaseSizeAndChangeText() {
+    var myObject = document.getElementById("YESSizeButton");
+    var currentSize = parseInt(getComputedStyle(myObject).width);
+    var newSize = currentSize + 50;
+
+    myObject.style.width = newSize + "px";
+    myObject.style.height = newSize + "px";
+
+    document.getElementById("NOSizeButton").innerText = buttonTexts[currentTextIndex];
+    currentTextIndex = (currentTextIndex + 1) % buttonTexts.length;
+}
+
+document.getElementById("NOSizeButton").addEventListener("click", function() {
+    increaseSizeAndChangeText();
+});
+
+        document.getElementById("YESSizeButton").addEventListener("click", function() {
+            setScreenById("Screen2");
+            startCountdown();
+        });
+
+        document.getElementById("button1").addEventListener("click", function() {
+            setScreenById("Screen3");
+        });
+        document.getElementById("button2").addEventListener("click", function() {
+            setScreenById("Screen4");
+        });
+        document.getElementById("button3").addEventListener("click", function() {
+            setScreenById("Screen5");
+        });
+        document.getElementById("button4").addEventListener("click", function() {
+            setScreenById("Screen6");
+        });
+        document.getElementById("button5").addEventListener("click", function() {
+            setScreenById("Screen7");
+        });
+        document.getElementById("button6").addEventListener("click", function() {
+            setScreenById("Screen8");
+        });
+
+        
+        
+        document.getElementById("back3").addEventListener("click", function() {
+            setScreenById("Screen2");
+        });
+        document.getElementById("back4").addEventListener("click", function() {
+            setScreenById("Screen2");
+        });
+        document.getElementById("back5").addEventListener("click", function() {
+            setScreenById("Screen2");
+        });
+        document.getElementById("back6").addEventListener("click", function() {
+            setScreenById("Screen2");
+        });
+        document.getElementById("back7").addEventListener("click", function() {
+            setScreenById("Screen2");
+        });
+        document.getElementById("back8").addEventListener("click", function() {
+            setScreenById("Screen2");
+        });
+
+        
+   
+
+    
+        document.getElementById("return").addEventListener("click", function() {
+    setScreenById("Screen1");
+});
+        function startCountdown() {
+            var countDownDate = new Date("Feb 14, 2024 00:00:00").getTime();
+            var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        }
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
