@@ -30,14 +30,14 @@
         .YES {
             color: antiquewhite;
             position: absolute;
-            right: 470px;
-            top: 350px;
+            right: 250px;
+            top: 300px;
             font-size: xx-large;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             border: 200px;
-            height: 200px;
+            height: 300px;
             border-radius: 20px;
-            width: 200px;
+            width: 300px;
             background-color: rgb(89, 167, 11);
             margin: 20px;
             transition: all 0.3s ease;
@@ -123,8 +123,8 @@
 <body>
     <div class="screen screen1 active" id="Screen1">
         
-        <header class="header1">HOLAAAA AMOR!!!
-            <br> WILL YOU BE MY ONE AND ONLY VALENTINES??????
+        <header class="header1">HI BABY!!!!
+            <br> HAPPY VALENTINES!!!!!! I LOVE YOU
         </header>
 
         <img class="absolute top-60 left-48"
@@ -133,8 +133,8 @@
         <img class="dancing"
             src="https://i.pinimg.com/originals/0b/a8/e2/0ba8e2989811721a348c576a1d24ce77.gif">
 
-        <button id="YESSizeButton" class="YES">YES</button>
-        <button id="NOSizeButton" class="NO">NO</button>
+        <button id="YESSizeButton" class="YES">PROCEED !!</button>
+        <!--- <button id="NOSizeButton" class="NO">NO</button> --->
     
     </div>
 
@@ -274,6 +274,10 @@ height: 150px;
 font-style: italic;
 transition: transform 0.3s ease;
 }
+.poem7{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
 .poem6:hover{
     background-color:crimson;
     color: rgb(246, 143, 198);
@@ -334,25 +338,26 @@ transition: transform 0.3s ease;
     
     <div class="screen screen2" id="Screen2">
         
-        <header class="Header2"> u picked yess??? Thats crazy ngl but
+        <header class="Header2"> TODAY IS THE DAY TODAYYYYY!!
             <br>
             heres more of some things i want you to know....
         </header>
-        <h1 class="Time">you can read in </h1>
+        <!--- <h1 class="Time">you can read in </h1>
         <h1 class="laugh">LOLLLL</h1>
-  <!---
+--->
         <button id="return" class="Return">Return</button>
-    ---->
+   
         <div id="countdown" style="font-size: 50px; color: red; position: absolute; top: 500px; right: 150px;"></div>
    
-       <!--- 
+   
         <button id="button1" class="poem1">secret</button>
         <button id="button2" class="poem2">secret</button>
         <button id="button3" class="poem3">secret</button>
         <button id="button4" class="poem4">secret</button>
         <button id="button5" class="poem5">secret</button>
         <button id="button6" class="poem6">secret</button>
-        --->
+       
+     
 
         <img class="hearts" src="https://i.pinimg.com/originals/92/dc/13/92dc13df1f31754c07becfe13714288c.gif">
         
@@ -412,8 +417,11 @@ and im glad it was me</p>
         you'll always have <br> someone who is proud of you<br>
         and someone who is there for you <br>
         no matter what
-        </p>
-    
+    <br>
+    <br>
+      
+    </p>
+    <h2 class="nomore">(no more dr.pepper its bad for u fr)</h2>
     </div>
     
     
@@ -444,10 +452,15 @@ and im glad it was me</p>
               you are so gorgeous,<br>
                the way i see you through my eyes is jus atonishing and stunning. <br>
                your personally are one of a kind and like ive said before i am more than lucky to have someone like you and i really hope you liked this.<br>
-                i love you and WE BELONG TOGETHER IDC.</p>
+                i love you and WE BELONG TOGETHER.</p>
         <img class="otter" src="https://media.tenor.com/0lMxJdfRFScAAAAi/otter-animated-otter.gif">
     </div>
+<div class="screen screen9" id="Screen9">
+    <button class="back7" id="back9">Back</button>
+    <p class="p7">
 
+    </p>
+</div>
 
 
 <style>
@@ -549,10 +562,24 @@ width: 300px;
     right: 490px;
     font-size: xx-large;
     font-family:Arial, Helvetica, sans-serif;
-    font-style: bold;
+    font-style:italic;
     text-decoration: solid;
     text-align: center;
     
+}
+.nomore{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    height: 450px;
+    width: 590px;
+    position: absolute;
+    top: 580px;
+    right: 250px;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    text-decoration: solid;
+    text-align: center;
 }
 .drP{
     position: absolute;
@@ -817,13 +844,13 @@ function increaseSizeAndChangeText() {
     currentTextIndex = (currentTextIndex + 1) % buttonTexts.length;
 }
 
-document.getElementById("NOSizeButton").addEventListener("click", function() {
-    increaseSizeAndChangeText();
-});
+//document.getElementById("NOSizeButton").addEventListener("click", function() {
+   // increaseSizeAndChangeText();
+//});
 
         document.getElementById("YESSizeButton").addEventListener("click", function() {
             setScreenById("Screen2");
-            startCountdown();
+            //startCountdown();
         });
 
         document.getElementById("button1").addEventListener("click", function() {
@@ -844,7 +871,7 @@ document.getElementById("NOSizeButton").addEventListener("click", function() {
         document.getElementById("button6").addEventListener("click", function() {
             setScreenById("Screen8");
         });
-
+       
         
         
         document.getElementById("back3").addEventListener("click", function() {
@@ -865,7 +892,7 @@ document.getElementById("NOSizeButton").addEventListener("click", function() {
         document.getElementById("back8").addEventListener("click", function() {
             setScreenById("Screen2");
         });
-
+        
         
    
 
@@ -873,27 +900,27 @@ document.getElementById("NOSizeButton").addEventListener("click", function() {
         document.getElementById("return").addEventListener("click", function() {
     setScreenById("Screen1");
 });
-      
-        function startCountdown() {
-            var countDownDate = new Date("Feb 14, 2024 00:00:00").getTime();
-            var x = setInterval(function() {
-                var now = new Date().getTime();
-                var distance = countDownDate - now;
+    
+        //function startCountdown() {
+            //var countDownDate = new Date("Feb 14, 2024 00:00:00").getTime();
+            //var x = setInterval(function() {
+                //var now = new Date().getTime();
+                //var distance = countDownDate - now;
 
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                //var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                //var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                //var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                //var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-                + minutes + "m " + seconds + "s ";
+                //document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+                //+ minutes + "m " + seconds + "s ";
 
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("countdown").innerHTML = "EXPIRED";
-                }
-            }, 1000);
-        }
+                //if (distance < 0) {
+                    //clearInterval(x);
+                    //document.getElementById("countdown").innerHTML = "EXPIRED";
+                //}
+            //}, 1000);
+        //}
     
     </script>
     
